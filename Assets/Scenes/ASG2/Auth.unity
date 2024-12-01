@@ -5948,7 +5948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5199621617593546361, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
       propertyPath: m_Name
-      value: start game
+      value: start tutorial
       objectReference: {fileID: 0}
     - target: {fileID: 5843222495059034212, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
       propertyPath: m_Layer
@@ -6014,8 +6014,7 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7599928799036896685, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2761796243615801627, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
     - {fileID: 4415745982179208541, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
