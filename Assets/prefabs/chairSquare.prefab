@@ -149,7 +149,6 @@ GameObject:
   - component: {fileID: 257069870614026306}
   - component: {fileID: 5525431575753765915}
   - component: {fileID: 3909771502553884533}
-  - component: {fileID: 247777900734193757}
   m_Layer: 0
   m_Name: chairSquare
   m_TagString: SquareChair
@@ -245,7 +244,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4071862404543821476}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -263,7 +262,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
 --- !u!114 &5525431575753765915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,28 +444,6 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
---- !u!64 &247777900734193757
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4071862404543821476}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1174834526421091022, guid: 610c50362b60ec641b2b6f3bfc5db89f, type: 3}
 --- !u!1 &6928425189169677497
 GameObject:
   m_ObjectHideFlags: 0
