@@ -28,6 +28,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Test");
     }
 
+    public void ALLTUTORIALS()
+    {
+        SceneManager.LoadScene("ALLTUTORIALS");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
