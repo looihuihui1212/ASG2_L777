@@ -206,10 +206,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 7.042
       objectReference: {fileID: 0}
-    - target: {fileID: 5360871912145964565, guid: 1757ff7f2534e51408320ac967013575, type: 3}
-      propertyPath: cameraTransform
-      value: 
-      objectReference: {fileID: 441087507}
     - target: {fileID: 5537725462635875992, guid: 1757ff7f2534e51408320ac967013575, type: 3}
       propertyPath: m_text
       value: 'Square Chairs: 0/2
@@ -220,10 +216,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AllTutorial 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8684551195201407249, guid: 1757ff7f2534e51408320ac967013575, type: 3}
-      propertyPath: cameraTransform
-      value: 
-      objectReference: {fileID: 441087507}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -481,11 +473,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
---- !u!4 &441087507 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 441087506}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &756192406
 GameObject:
   m_ObjectHideFlags: 0
